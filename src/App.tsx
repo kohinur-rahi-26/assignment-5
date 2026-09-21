@@ -2,6 +2,8 @@ import { Suspense } from "react";
 import Banner from "./componete/Banner"
 import Nav from "./componete/Nav"
 import Card from "./componete/Card";
+import Footer from "./componete/Footer";
+
 
 
 
@@ -19,19 +21,19 @@ function App() {
   console.log(cardPromise)
 
 
-  
- 
-
   return (
     <>
      
       <Nav />
       <Banner/>
+      
       <Suspense
         fallback ={<h2>Loading...........</h2>}>
        <Card  cardPromise={cardPromise} />
 
       </Suspense>
+      <Footer />
+      
       
       
       
