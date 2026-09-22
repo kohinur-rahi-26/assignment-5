@@ -94,10 +94,10 @@ const Explore = ({ card }: ExploreProps) => {
                   
                   <div className="flex items-center gap-2">
 
-                    <img
+                    <img  className="h-6 w-6"
                       src={item.icon}
                       alt={item.name}
-                      className="h-6 w-6"
+                     
                     />
 
                     <div>
