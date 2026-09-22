@@ -62,7 +62,7 @@ const Footer = () => {
 
     </div>
    
-         <div className="mx-auto flex justify-between gap-5 px-10 py-8 items-center border-b border-gray-200">
+         <div className="mx-auto flex justify-between gap-5 px-10 py-5 items-center border-b border-gray-200">
             </div>
 
       <div className=" flex justify-between items-center px-10 py-4 text-[10px] text-gray-400">
