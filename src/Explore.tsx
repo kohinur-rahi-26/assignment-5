@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import type { Icards } from './Cardtypes';
 import ExploreCard from './ExploreCard';
 import { FaTimes } from 'react-icons/fa';
