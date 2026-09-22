@@ -10,7 +10,7 @@ interface ExploreProps {
 const Explore = ({ card }: ExploreProps) => {
   const [selectedCards, setSelectedCards] = useState<Icards[]>([]);
 
-  // Add to Stack
+  
   const handleAddToStack = (Card: Icards) => {
     setSelectedCards((previousCards) => {
       const alreadySelected = previousCards.some(

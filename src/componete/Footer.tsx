@@ -4,7 +4,7 @@ import footerImage from '../assets/logo-text.png';
 const Footer = () => {
   return (
     <div >
-         <div className="bg-white mx-auto flex justify-between gap-5 px-10 py-8  items-center items-start">
+         <div className="bg-white mx-auto flex justify-between gap-5 px-10 py-8 mb-8 items-center items-start">
 
       <div>
         <img src={footerImage} alt='' />
@@ -49,7 +49,7 @@ const Footer = () => {
 
     
       <div>
-        <h3 className="mb-3 text-[12px] font-bold ">
+        <h3 className="mb-3 text-[12px] font-bold mr-50">
           LEGAL
         </h3>
 

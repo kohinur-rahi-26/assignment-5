@@ -2,7 +2,7 @@ import banner from '../assets/banner-stack.png';
 
 const Banner = () => {
     return (
-        <div className=' flex space-between justify-center  my-20 mx-auto gap-10'>
+        <div className='  flex space-between justify-center  my-20 mx-auto gap-10'>
             <div >
                 <h2 className='text-bold text-6xl '>Build Your Ideal<br/> <span className='bg-gradient-to-r from-[#FF5722] via-[#D81B7E] to-[#7C3AED] bg-clip-text text-transparent font-extrabold-4xl'>
                     Development Stack
